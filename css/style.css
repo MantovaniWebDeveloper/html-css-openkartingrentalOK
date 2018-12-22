@@ -15,6 +15,7 @@ header {
   background-color: yellow;
 }
 header #wrapMenuNav {
+  display: flex;
   background-color: blue;
   width: 100%;
   height: 100%;
@@ -29,4 +30,16 @@ header #wrapVideo {
   top: 0px;
   left: 0px;
   z-index: 0;
+}
+
+.logoWrap {
+  background-color: red;
+  height: 100%;
+  width: 30%;
+}
+
+nav {
+  background-color: green;
+  height: 100%;
+  width: 70%;
 }
