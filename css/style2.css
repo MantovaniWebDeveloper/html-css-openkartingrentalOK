@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+main {
+}
+header{
+  background-color: black;
+  height: 100px;
+}
+body {
+  background-color: #c7c7c7 !important;
+}
+.wrapLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.bottomHeader {
+  background-color: rgb(230, 230, 230);
+}
+.menuNav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.menuNavResponsive {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.menuNav li {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.menuNav li a{
+  color: #000;
+}
+.menuNav li a:hover{
+  background-color:#edc81a;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btnMenuResponsive {
+  display: none;
+}
+/*MEDIA QUERY PER MENUNAV*/
+@media screen and (max-width: 1200px) {
+  .menuNav li {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menuNav li {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapLogo {
+    justify-content: space-around;
+  }
+  .menuNav {
+    display: none;
+  }
+  .btnMenuResponsive {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    font-size: 40px;
+    border: 0;
+    background-color: rgb(230, 230, 230);
+  }
+}
+@media screen and (max-width: 494px) {
+  .wrapLogo img {
+    height: 40%;
+  }
+}
+/*********************************************/
