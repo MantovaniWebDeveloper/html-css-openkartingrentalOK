@@ -10,7 +10,11 @@
   margin: 0 auto;
   height: 100%;
 }
-
+.container-xl {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
 header {
   height: 100vh;
   background-color: yellow;
@@ -87,9 +91,14 @@ nav .menuNav .elemento a:hover {
   width: 100%;
 }
 
-main {
+main  .info1{
   position: static;
-  height: 400px;
+  height: 100vh;
   width: 100%;
   background-color: green;
+}
+.wrapInfo1 {
+  background-color: red;
+  height: 100%;
+  width: 100%;
 }
