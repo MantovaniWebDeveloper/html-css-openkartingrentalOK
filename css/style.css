@@ -11,14 +11,14 @@
 }
 header {
   position: relative;
-  height: 80px;
+  height: 100px;
   background-color: yellow;
 }
 header #wrapMenuNav {
   display: flex;
-  background-color: blue;
   width: 100%;
   height: 100%;
+  padding-top: 15px;
   position: relative;
   z-index: 1;
 }
@@ -33,13 +33,49 @@ header #wrapVideo {
 }
 
 .logoWrap {
-  background-color: red;
+  display: flex;
+  align-items: center;
+  background-color: #000;
   height: 100%;
   width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid grey;
 }
-
+.logoWrap img{
+  max-width: 100%;
+  height: auto;
+}
 nav {
-  background-color: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
   height: 100%;
   width: 70%;
+}
+nav .menuNav {
+  list-style-type: none;
+
+}
+nav .menuNav .elemento{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+nav .menuNav .elemento a{
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .menuNav .elemento a:hover{
+  color: #edc71c;
+  text-decoration: underline;
+}
+#wrapVideo iframe {
+  height: 100%;
+  width: 100%;
 }
