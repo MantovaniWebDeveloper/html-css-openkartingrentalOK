@@ -4,14 +4,16 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-
+body {
+  background-color:rgb(31, 29, 29);
+}
 .container {
   width: 70%;
   margin: 0 auto;
   height: 100%;
 }
 .container-xl {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   height: 100%;
 }
@@ -111,7 +113,6 @@ main  .spot{
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: green;
 }
 .wrapInfo1Img {
   background: url("../assets/gokartpartenza.jpg");
@@ -125,6 +126,11 @@ main  .spot{
   background-position: center;
   background-size: cover;
 }
+.wrapInfo2Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .wrapInfo1 .wrapInfo1Text {
   display: flex;
   flex-direction: column;
@@ -135,6 +141,7 @@ main  .spot{
   padding-left: 20px;
   padding-right: 20px;
 }
+.wrapInfo2Text,
 .wrapInfo1 .wrapInfo1TextDx {
   display: flex;
   flex-direction: column;
@@ -145,6 +152,7 @@ main  .spot{
   padding-left: 20px;
   padding-right: 20px;
 }
+.wrapInfo2 .wrapInfo2Text h3,
 .wrapInfo1 .wrapInfo1TextDx .wrapInfo1TextContentDX h3,
 .wrapInfo1 .wrapInfo1Text .wrapInfo1TextContent h3{
   font-size: 30px;
@@ -165,4 +173,14 @@ main  .spot{
   padding-right: 25px;
   font-size: 18px;
   text-decoration: none;
+}
+.btnIscriviti:hover {
+  background-color: rgb(232, 175, 46);
+}
+.wrapInfo2 .wrapInfo2Text {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
