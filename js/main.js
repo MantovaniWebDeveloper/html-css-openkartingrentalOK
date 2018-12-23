@@ -1,18 +1,8 @@
-/***PER REALIZZARE UN HAMBURGER MENU IN JQUERY ***/
-//salvo in variabile il pulsante e il menù responsive
-var button = $('#btnMR');
-var menu = $('#menu');
-console.log(button);
+$(document).ready(function(){
 
-var aperto = false;
-button.click(function(){
-  if (aperto == false) {
-    menu.show();
-    aperto = true;
-  }
-  else {
-    menu.hide();
-    aperto = false;
-  }
+  //alert('ci sono');
+
+  $(window).scroll(function() {
+    //$(".wrapInfo1 p").css("display","inline");
+  });
 });
-/*****************************************/

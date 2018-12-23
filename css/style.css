@@ -11,7 +11,7 @@
   height: 100%;
 }
 .container-xl {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   height: 100%;
 }
@@ -49,7 +49,7 @@ header #wrapMenuNav {
   border-right: 1px solid grey;
 }
 
-.logoWrap img {
+.imgResponsive {
   max-width: 100%;
   height: auto;
 }
@@ -91,14 +91,54 @@ nav .menuNav .elemento a:hover {
   width: 100%;
 }
 
-main  .info1{
-  position: static;
+main  .spot{
   height: 100vh;
   width: 100%;
-  background-color: green;
+  background-color: #000;
 }
 .wrapInfo1 {
-  background-color: red;
-  height: 100%;
+  display: flex;
+  height: 50%;
   width: 100%;
+  background-color: white;
+}
+.wrapInfo1 > div {
+  width: 50%;
+  height: 100%;
+}
+.wrapInfo1Img {
+  background: url("../assets/gokartpartenza.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapInfo1 .wrapInfo1Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.wrapInfo1 .wrapInfo1Text .wrapInfo1TextContent h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.wrapInfo1 .wrapInfo1Text .wrapInfo1TextContent p{
+  font-size: 18px;
+
+}
+.btnIscriviti {
+  background-color: rgb(237, 26, 26);
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 18px;
+  text-decoration: none;
 }
