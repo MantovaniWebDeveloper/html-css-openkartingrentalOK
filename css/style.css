@@ -184,3 +184,46 @@ main  .spot{
   padding-left: 20px;
   padding-right: 20px;
 }
+.wrapForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+.wrapForm form {
+
+  border: 1px solid rgb(232, 175, 46);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.wrapForm form input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  width: 80%;
+  height: 40px;
+}
+footer {
+
+  height: 100px;
+  width: 100%;
+  background-color:rgb(232, 175, 46);
+  text-align: center;
+}
+.contentFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.contentFooter small {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
