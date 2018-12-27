@@ -238,3 +238,17 @@ main #wrapIntroContent {
   height: 100%;
   cursor: pointer;
 }
+#wrapPagamenti p {
+  font-size: 13px;
+}
+footer {
+  background-color: #EDC81A;
+  height: 100px;
+}
+#footerContent {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
