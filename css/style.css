@@ -119,6 +119,7 @@ main #wrapIntroContent {
 .white {
   color: #fff;
 }
+
 #categoriePiloti {
   height: 100vh;
   width: 100%;
@@ -127,18 +128,17 @@ main #wrapIntroContent {
   max-width: 100%;
   height: auto;
 }
-#wrapCategoriePiloticontent {
+.wrapContent{
   display: flex;
-  height: 100%;
 }
-#wrapCategoriePiloticontent #wrapImgCat {
+.wrapContent #wrapImgCat {
   width: 40%;
   height: 100%;
 }
-#wrapCategoriePiloticontent #wrapTextCat {
+.wrapContent #wrapTextCat {
   width: 60%;
 }
-#wrapCategoriePiloticontent #wrapTextCat p{
+.wrapContent #wrapTextCat p{
   text-align: right;
 }
 .riga1 {
@@ -162,4 +162,24 @@ main #wrapIntroContent {
 }
 #wrapTextCat .wrapButton {
   text-align: right;
+}
+#circuiti {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+}
+#wrapTitoloCircuiti {
+  text-align: right;
+}
+#wrapTitoloCircuiti img {
+  max-width: 100%;
+  height: auto;
+}
+#wrapTextCircuiti {
+  width: 60%;
+  height: 100%;
+}
+#wrapLogoCircuiti {
+  width: 40%;
+  height: 100%;
 }
