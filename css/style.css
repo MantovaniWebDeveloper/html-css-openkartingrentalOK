@@ -183,3 +183,14 @@ main #wrapIntroContent {
   width: 40%;
   height: 100%;
 }
+.rigaLogoCircuiti {
+  width: calc(100% / 2);
+  height: 100px;
+  float: left;
+}
+.rigaLogoCircuiti img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
