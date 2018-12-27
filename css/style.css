@@ -54,7 +54,7 @@ main #wrapIntroContent {
 }
 
 .wrapButton {
-  margin-top: 70px;
+  padding-top: 70px;
 }
 
 .wrapButton .btnIscriviti {
@@ -64,7 +64,7 @@ main #wrapIntroContent {
   padding-bottom: 10px;
   padding-right: 60px;
   padding-left: 60px;
-  color: #fff;
+
   text-decoration: none;
 }
 
@@ -112,4 +112,54 @@ main #wrapIntroContent {
 
 .wrapSpiegazioneText ul li {
   margin-top: 10px;
+}
+.black {
+  color: #000;
+}
+.white {
+  color: #fff;
+}
+#categoriePiloti {
+  height: 100vh;
+  width: 100%;
+}
+#wrapTitoloCategoriePiloti img {
+  max-width: 100%;
+  height: auto;
+}
+#wrapCategoriePiloticontent {
+  display: flex;
+  height: 100%;
+}
+#wrapCategoriePiloticontent #wrapImgCat {
+  width: 40%;
+  height: 100%;
+}
+#wrapCategoriePiloticontent #wrapTextCat {
+  width: 60%;
+}
+#wrapCategoriePiloticontent #wrapTextCat p{
+  text-align: right;
+}
+.riga1 {
+  width: calc(100% / 4);
+  height: 100%;
+  float: left;
+}
+.riga1 i{
+  font-size: 40px;
+  text-align: center;
+}
+.riga1 img {
+  max-width: 100%;
+  height: 36px;
+}
+.riga1  {
+  text-align: center;
+}
+.yellow {
+  color:#EDC81A;
+}
+#wrapTextCat .wrapButton {
+  text-align: right;
 }
