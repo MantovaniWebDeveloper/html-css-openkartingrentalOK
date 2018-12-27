@@ -64,7 +64,6 @@ main #wrapIntroContent {
   padding-bottom: 10px;
   padding-right: 60px;
   padding-left: 60px;
-
   text-decoration: none;
 }
 
@@ -113,9 +112,11 @@ main #wrapIntroContent {
 .wrapSpiegazioneText ul li {
   margin-top: 10px;
 }
+
 .black {
   color: #000;
 }
+
 .white {
   color: #fff;
 }
@@ -124,73 +125,116 @@ main #wrapIntroContent {
   height: 100vh;
   width: 100%;
 }
+
 #wrapTitoloCategoriePiloti img {
   max-width: 100%;
   height: auto;
 }
-.wrapContent{
+
+.wrapContent {
   display: flex;
 }
+
 .wrapContent #wrapImgCat {
   width: 40%;
   height: 100%;
 }
+
 .wrapContent #wrapTextCat {
   width: 60%;
 }
-.wrapContent #wrapTextCat p{
+
+.wrapContent #wrapTextCat p {
   text-align: right;
 }
+
 .riga1 {
   width: calc(100% / 4);
   height: 100%;
   float: left;
 }
-.riga1 i{
+
+.riga1 i {
   font-size: 40px;
   text-align: center;
 }
+
 .riga1 img {
   max-width: 100%;
   height: 36px;
 }
-.riga1  {
+
+.riga1 {
   text-align: center;
 }
+
 .yellow {
-  color:#EDC81A;
+  color: #EDC81A;
 }
+
 #wrapTextCat .wrapButton {
   text-align: right;
 }
-#circuiti {
+
+#circuiti,
+#modalita {
   height: 100vh;
   width: 100%;
   background-color: #000;
 }
+
 #wrapTitoloCircuiti {
   text-align: right;
 }
+
 #wrapTitoloCircuiti img {
   max-width: 100%;
   height: auto;
 }
+
 #wrapTextCircuiti {
   width: 60%;
   height: 100%;
 }
+
 #wrapLogoCircuiti {
   width: 40%;
   height: 100%;
 }
+
 .rigaLogoCircuiti {
   width: calc(100% / 2);
   height: 100px;
   float: left;
 }
+
 .rigaLogoCircuiti img {
   max-width: 100%;
   height: auto;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+#wrapModalitaContent {
+  display: flex;
+  height: 100%;
+}
+
+#wrapModalitaContent>div {
+  width: 50%;
+  height: 100%;
+  color: #fff;
+  padding-top: 100px;
+}
+
+#wrapImgRegolamento {
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#wrapImgRegolamento img {
+  max-width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
