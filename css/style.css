@@ -80,6 +80,49 @@ main #wrapIntroContent {
   font-size: 60px;
 }
 
+/*******MEDIA QUERY HEADEER E WRAPINTRO*/
+@media screen and (max-width: 850px) {
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .frasePromozionale h2 {
+    font-size: 16px;
+  }
+
+  .wrapButton .btnIscriviti {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .frasePromozionale h2 {
+    font-size: 12px;
+  }
+
+  .wrapButton .btnIscriviti {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .wrapButton .btnIscriviti {
+    font-size: 15px;
+  }
+}
+
+/***************************************/
 #wrapSpiegazioneGenerale .wrapSpiegazioneGeneraleContent {
   display: flex;
   height: 100vh;
@@ -121,6 +164,71 @@ main #wrapIntroContent {
   color: #fff;
 }
 
+/*******MEDIA QUERY SPIEGAZIONE GENERALE*/
+@media screen and (max-width: 1231px) {
+  .wrapImgKart img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .wrapSpiegazioneText h2 {
+    font-size: 18px;
+  }
+
+  .wrapSpiegazioneText {
+    font-size: 12px;
+  }
+
+  .wrapSpiegazioneText .wrapButton .btnIscriviti {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .wrapSpiegazioneText .wrapButton .btnIscriviti {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 897px) {
+  #wrapTitoloCategoriePiloti{
+    padding-top:40px;
+  }
+  #wrapSpiegazioneGenerale .wrapSpiegazioneGeneraleContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapImgKart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .wrapImgKart img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .wrapSpiegazioneText .wrapButton {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wrapSpiegazioneText h2 {
+    font-size: 16px;
+  }
+
+  .wrapSpiegazioneText {
+    font-size: 10px;
+  }
+}
+
+
+/***************************************/
 #categoriePiloti {
   height: 100vh;
   width: 100%;
@@ -175,7 +283,49 @@ main #wrapIntroContent {
 #wrapTextCat .wrapButton {
   text-align: right;
 }
+/*******MEDIA QUERY SECTION CATEGORIE PILOTI*/
 
+@media screen and (max-width: 1231px) {
+  #wrapTextCat .wrapButton .btnIscriviti{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 897px) {
+  #wrapTextCat .wrapButton .btnIscriviti{
+    font-size: 12px;
+  }
+  #wrapTextCat p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wrapContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapContent #wrapImgCat {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapContent #wrapTextCat {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .wrapContent #wrapTextCat p {
+    text-align: center;
+  }
+
+  #wrapTextCat .wrapButton {
+    text-align: center;
+  }
+}
+
+
+/***************************************/
 #circuiti,
 #modalita {
   height: 100vh;
@@ -238,16 +388,19 @@ main #wrapIntroContent {
   height: 100%;
   cursor: pointer;
 }
+
 #wrapPagamenti p {
   font-size: 13px;
 }
+
 footer {
   background-color: #EDC81A;
   height: 100px;
 }
+
 #footerContent {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   height: 100%;
